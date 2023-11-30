@@ -135,7 +135,7 @@
 /* ------------------------------------------------------------------------------------------------------------ */
 .milk-tea
 {
-  height: 800px;
+  height: 900px;
   background: url(./img/milk-tea.png);
   margin-top: auto;
 }
@@ -144,12 +144,21 @@
   display: inline-block;
   width: 80px;
   border: 1px solid rgba(237,134,67,255);
-  background: rgba(255,187,140,255);
+  /* background: rgba(255,187,140,255); */
+  background: transparent;
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 10px;
   font-size: 15px;
   color: rgba(11,2,0,255);
+}
+.milk-tea-logo
+{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: auto;
+  padding: 15px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------ */
