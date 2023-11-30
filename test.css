@@ -1,0 +1,11 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.product-slider
+{
+    background: thistle;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
