@@ -12,7 +12,7 @@ var x = setInterval(function () {
   document.getElementById("seconds").innerHTML = seconds;
 }, 1000);
 
-var secondss = 1000;
+var secondss = 301;
 function displaysecondss() {
   secondss -= 1;
   document.getElementById("secondsdisplay").innerText =
@@ -22,4 +22,4 @@ setInterval(displaysecondss, 1000);
 function backtohome() {
   window.location = "index.html";
 }
-setTimeout("backtohome()", 1000000);
+setTimeout("backtohome()", 301000);

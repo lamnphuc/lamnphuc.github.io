@@ -81,15 +81,48 @@
 .container header
 {
     font-size: 160px;
-    color: white;
+    color: #E7C582;
     font-weight: 600;
     transition: 0.5s ease;
+    text-shadow: 
+    0 0 5px white,
+    0 0 10px white,
+    0 0 30px white,
+    0 0 30px #363636,
+    0 0 20px #363636,
+    0 0 20px #363636,
+    0 0 20px #363636,
+    0 0 100px #363636;
+}
+@keyframes glow
+{
+    100%{
+        text-shadow: 
+        0 0 4px white,
+        0 0 11px white,
+        0 0 19px white,
+        0 0 40px #FFF01F,
+        0 0 80px #FFF01F,
+        0 0 90px #FFF01F,
+        0 0 100px #FFF01F;
+    }
+    0%{
+        text-shadow: 
+        0 0 4px white,
+        0 0 10px white,
+        0 0 18px white,
+        0 0 38px #FFF01F,
+        0 0 73px #FFF01F,
+        0 0 80px #FFF01F,
+        0 0 90px #FFF01F;
+    }
 }
 .container header:hover
 {
     -webkit-text-stroke: 2px white;
-    color: transparent;
+    color: black;
 }
+
 .container p
 {
     font-size: 22px;
@@ -132,6 +165,7 @@
     font-size: 20px;
     padding: 10px;
     color: white;
+    background: transparent;
 }
 .container a
 {
@@ -142,4 +176,18 @@
     border: 2px solid white;
     border-radius: 50px;
     margin-top: 20px;
+    padding: 5px;
+}
+.container a:hover
+{
+    color: black;
+    background: white;
+    border: 2px solid black;
+    transition: 0.5s ease;
+}
+.container i:hover
+{
+    color: black;
+    background: transparent;
+    transition: 0.5s ease;
 }
