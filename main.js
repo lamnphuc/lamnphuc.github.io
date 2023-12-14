@@ -44,3 +44,26 @@ dots.forEach((li, key) => {
     reloadSlider();
   });
 });
+
+
+// $(window).on("load", function () {
+//   $(".loader-wrapper").fadeOut("slow");
+// });
+
+$(window).on("load", function () {
+  // Hiển thị loader
+  $(".loader-wrapper").fadeIn("slow");
+
+  // Đặt thời gian chờ 3 giây và sau đó thực hiện fadeout
+  setTimeout(function () {
+    $(".loader-wrapper").fadeOut("slow");
+  }, 2000);
+});
+
+
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+
+if(!isChrome) {
+    document.getElementsByClassName('infinityChrome')[0].style.display = "none";
+    document.getElementsByClassName('infinity')[0].style.display = "block";
+}
