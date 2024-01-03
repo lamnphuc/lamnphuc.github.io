@@ -1,0 +1,197 @@
+<!-- TRANG ĐĂNG NHẬP -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LamNP - Đăng nhập</title>
+    <link rel="stylesheet" href="./asset/css/style2.css" />
+    <link rel="icon" type="image/png" href="./asset/img/LittleLogo6.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/arrow-top-right.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="./index.html" class="logo"
+        ><img src="./asset/img/LOGOW.png" alt="LamNP"
+      /></a>
+
+      <input type="checkbox" id="check">
+      <label for="check" class="icons">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <i class='bx bx-x' id="close-icon"></i>
+      </label>
+
+      <nav class="navbar">
+        <a href="./index.html" style="--i: 0"><b>Trang Chủ</b></a>
+        <a href="./product.html" style="--i: 2"><b>Sản Phẩm</b></a>
+        <a href="./contact.html" style="--i: 3"><b>Liên Hệ</b></a>
+        <a href="./signIn.html" style="--i: 4"><b>Tài Khoản</b></a>
+      </nav>
+    </header>
+
+    <div class="blacknav"></div>
+
+    <section class="login-title">
+      <div class="little-header">
+        <span>Đăng nhập để thanh toán nhanh hơn.</span>
+      </div>
+    </section>
+
+    <div class="login-title-1">
+      <h2 class="title">Đăng nhập vào LamNP Store</h2>
+    </div>
+
+    <form id="loginForm" method="post">
+
+      <div class="container">
+        <div class="search-bar">
+          <input type="text" id="email" placeholder="Email hoặc số điện thoại" name="e-mail" />
+        </div>
+        <div class="search-bar">
+          <input type="password" id="pwd" placeholder="Mật khẩu" name="pwd" />
+        </div>
+      </div>
+      <div class="btn">
+        <button type="button" onclick="login()"><i class="bx bx-right-arrow-circle"></i></button>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox" /> Lưu LamID</label>
+        <br />
+        <a href="#">Bạn đã quên mật khẩu? <i class="gg-arrow-top-right"></i></a>
+      </div>
+  
+      <div class="register">
+        <span
+          >Bạn không có LamID?
+          <a href="./register.html"
+            id="loginBtn">Tạo tài khoản của bạn ngay bây giờ
+            <i class="gg-arrow-top-right"></i></a
+        ></span>
+      </div>
+      
+    </form>
+
+    <footer>
+      <div class="contents">
+        <div class="top">
+          <div class="logoPL">
+            <a href="index.html"><img src="./asset/img/LOGO.png" alt="" /></a>
+          </div>
+          <div class="media">
+            <a href="./soon.html"><i class="bx bxl-facebook"></i></a>
+            <a href="./soon.html"><i class="bx bxl-google"></i></a>
+            <a href="./soon.html"><i class="bx bxl-linkedin"></i></a>
+            <a href="./soon.html"><i class="bx bxl-telegram"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="links_name"><b>Mua Sắm Và Tìm Hiểu</b></li>
+            <li><a href="./soon.html">Cửa Hàng</a></li>
+            <li><a href="./soon.html">Máy Tính</a></li>
+            <li><a href="./soon.html">Máy Tính Bảng</a></li>
+            <li><a href="./soon.html">Điện Thoại</a></li>
+            <li><a href="./soon.html">Đồng Hồ</a></li>
+            <li><a href="./soon.html">Tai Nghe</a></li>
+            <li><a href="./soon.html">TV & Nhà</a></li>
+            <li><a href="./soon.html">Định Vị</a></li>
+            <li><a href="./soon.html">Phụ Kiện</a></li>
+            <br />
+            <li class="links_name"><b>Ví LAMNP</b></li>
+            <li><a href="./soon.html">Ví</a></li>
+            <li><a href="./soon.html">LAMNP Pay</a></li>
+          </ul>
+          <ul class="box">
+            <li class="links_name"><b>Tài Khoản</b></li>
+            <li><a href="./soon.html">Quản Lý LamID Của Bạn</a></li>
+            <li><a href="./soon.html">Tài Khoản LamStore</a></li>
+            <br />
+            <li class="links_name"><b>Giải Trí</b></li>
+            <li><a href="./soon.html">Lam One</a></li>
+            <li><a href="./soon.html">Lam TV+</a></li>
+            <li><a href="./soon.html">Lam Music</a></li>
+            <li><a href="./soon.html">Lam Arcade</a></li>
+            <li><a href="./soon.html">Lam Podcasts</a></li>
+            <li><a href="./soon.html">Lam Books</a></li>
+          </ul>
+          <ul class="box">
+            <li class="links_name"><b>LamNP Store</b></li>
+            <li><a href="./soon.html">Ứng Dụng LamNP Store</a></li>
+            <li><a href="./soon.html">LamNP Trade In</a></li>
+            <li><a href="./soon.html">Tài Chính</a></li>
+            <li><a href="./soon.html">Tình Trạng Đơn Hàng</a></li>
+            <li><a href="./soon.html">Hỗ Trợ Mua Hàng</a></li>
+          </ul>
+          <ul class="box">
+            <li class="links_name"><b>Dành Cho Doanh Nghiệp</b></li>
+            <li><a href="./soon.html">LamNP Và Doanh Nghiệp</a></li>
+            <li><a href="./soon.html">Mua Hàng Cho Doanh Nghiệp</a></li>
+            <br />
+            <li class="links_name"><b>Cho Giáo Dục</b></li>
+            <li><a href="./soon.html">LamNP Và Giáo Dục</a></li>
+            <li><a href="./soon.html">Mua Hàng Cho Bậc Đại Học</a></li>
+            <br />
+            <li class="links_name"><b>Cho Chăm Sóc Sức Khoẻ</b></li>
+            <li>
+              <a href="./soon.html">LamNP Trong Chăm Sóc <br />Sức Khoẻ</a>
+            </li>
+            <li><a href="./soon.html">Sức Khoẻ Trên Đồng Hồ</a></li>
+          </ul>
+          <ul class="box">
+            <li class="links_name"><b>Giá Trị Cốt Lõi Của LamNP</b></li>
+            <li><a href="./soon.html">Trợ Năng</a></li>
+            <li><a href="./soon.html">Môi Trường</a></li>
+            <li><a href="./soon.html">Quyền Riêng Tư</a></li>
+            <li><a href="./soon.html">Trách Nhiệm Nhà Cung Cấp</a></li>
+            <br />
+            <li class="links_name"><b>Về LamNP</b></li>
+            <li><a href="./soon.html">Newsroom</a></li>
+            <li><a href="./soon.html">Lãnh Đạo Của LamNP</a></li>
+            <li><a href="./soon.html">Nhà Đầu Tư</a></li>
+            <li><a href="./soon.html">Đạo Đức & Quy Tắc</a></li>
+            <li><a href="./soon.html">Sự Kiện</a></li>
+            <li><a href="./soon.html">Liên Hệ LamNP</a></li>
+            <br />
+          </ul>
+        </div>
+      </div>
+      <div class="middle-details">
+        <div class="middle-Text">
+          <p class="shopping">
+            Xem thêm cách để mua hàng: <a href="./soon.html"> Tìm cửa hàng bán lẻ</a> gần
+            bạn. Hoặc gọi 1800 6789.
+          </p>
+          <hr />
+          <div class="copyright">
+            <p>Copyright &#169; LamNP Inc. 2023. Bảo lưu mọi quyền.</p>
+            <p>Việt Nam</p>
+          </div>
+          <div class="policy">
+            <a href="./soon.html">Chính Sách Quyền Riêng Tư |</a>
+            <a href="./soon.html">Điều Khoản Sử Dụng |</a>
+            <a href="./soon.html">Bán Hàng Và Hoàn Tiền |</a>
+            <a href="./soon.html">Pháp Lý |</a>
+            <a href="./soon.html">Bản Đồ Trang Web</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./asset/js/signIn.js"></script>
+</html>

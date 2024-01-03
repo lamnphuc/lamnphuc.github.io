@@ -45,7 +45,6 @@ dots.forEach((li, key) => {
   });
 });
 
-
 // $(window).on("load", function () {
 //   $(".loader-wrapper").fadeOut("slow");
 // });
@@ -60,10 +59,15 @@ $(window).on("load", function () {
   }, 2000);
 });
 
+var isChrome =
+  /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-
-if(!isChrome) {
-    document.getElementsByClassName('infinityChrome')[0].style.display = "none";
-    document.getElementsByClassName('infinity')[0].style.display = "block";
+if (!isChrome) {
+  document.getElementsByClassName("infinityChrome")[0].style.display = "none";
+  document.getElementsByClassName("infinity")[0].style.display = "block";
 }
+
+setTimeout(function () {
+  var infoElement = document.querySelector(".information");
+  infoElement.classList.add("change-style");
+}, 5000);

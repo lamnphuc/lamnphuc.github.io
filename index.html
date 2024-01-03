@@ -1,10 +1,10 @@
+<!-- TRANG CHÍNH -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>LamNP - Việt Nam</title>
     <link rel="stylesheet" href="./asset/css/style.css" />
-    <link rel="icon" type="image/png" href="./asset/img/LittleLogo6.png" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -13,11 +13,12 @@
       href="https://fonts.cdnfonts.com/css/sf-pro-display"
       rel="stylesheet"
     />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="icon" type="image/png" href="./asset/img/LittleLogo6.png" />
   </head>
 
   <body>
@@ -25,179 +26,188 @@
       <a href="./index.html" class="logo"
         ><img src="./asset/img/LOGOW.png" alt="LamNP"
       /></a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
       <nav class="navbar">
-        <a href="./index.html"><b>Trang Chủ</b></a>
-        <a href="./index4.html"><b>Giới Thiệu</b></a>
-        <a href="./index3.html"><b>Sản Phẩm</b></a>
-        <a href="./index4.html"><b>Hỗ Trợ</b></a>
-        <a href="./index2.html"><b>Tài Khoản</b></a>
+        <a href="./index.html" style="--i: 0"><b>Trang Chủ</b></a>
+        <a href="./product.html" style="--i: 2"><b>Sản Phẩm</b></a>
+        <a href="./contact.html" style="--i: 3"><b>Liên Hệ</b></a>
+        <a href="./signIn.html" style="--i: 4" id="accountBtn"><b>Tài Khoản</b></a>
       </nav>
     </header>
 
     <div class="blacknav"></div>
 
-    <section class="hero milk-tea">
-      <div class="container">
-        <div class="tittle tittle-dark">
-          <p class="partner">ĐỐI TÁC</p>
-          <img src="./asset/img/milk-tea-logo-3.png" alt="" class="milk-tea-logo" />
-          <h2 class="tittle-heading">Trà Sữa</h2>
-          <h3 class="tittle-sub-heading">Nhà làm. Như nhà làm.</h3>
-          <p class="tittle-price">Từ 12.000 đồng.</p>
-        </div>
-        <div class="cta">
-          <a href="./index4.html" class="cta-link cta-link-darker"
-            >Tìm hiểu thêm ></a
-          >
-          <a href="./index4.html" class="cta-link cta-link-darker">Mua ></a>
+    <!-- INFOMARTION -->
+    <div class="information">
+      <p>Giao diện Điện thoại đang được phát triển.</p>
+    </div>
+
+    <!-- SECTIONS -->
+    <section class="section1">
+      <div
+        class="background"
+        style="background-image: url(./asset/img/banner1.png)"
+      ></div>
+
+      <div class="top__title">
+        <h1>Điện Thoại 15 Pro</h1>
+        <h3>Titan. Thật bền chắc. Thật nhẹ. Thật Pro.</h3>
+        <div class="top__title--links">
+          <a href="">Tìm hiểu thêm ></a>
+          <a href="">Mua ></a>
         </div>
       </div>
     </section>
 
-    <section class="hero phone-15-pro">
-      <div class="container">
-        <div class="tittle">
-          <h2 class="tittle-heading">Điện Thoại 15 Pro</h2>
-          <h3 class="tittle-sub-heading">
-            Titan. Thật bền chắc. Thật nhẹ. Thật Pro.
-          </h3>
-          <p class="tittle-price">Từ 28.999.000 đồng.</p>
-        </div>
-        <div class="cta">
-          <a href="./index4.html" class="cta-link">Tìm hiểu thêm ></a>
-          <a href="./index4.html" class="cta-link">Mua ></a>
+    <section class="section2">
+      <div
+        class="background"
+        style="background-image: url(./asset/img/banner2.png)"
+      ></div>
+
+      <div class="top__title">
+        <h1 class="black">Điện Thoại 15</h1>
+        <h3 class="black">Camera mới. Thiết kế mới. Mới lịm tim.</h3>
+        <div class="top__title--links">
+          <a href="" class="dark-blue">Tìm hiểu thêm ></a>
+          <a href="" class="dark-blue">Mua ></a>
         </div>
       </div>
     </section>
 
-    <section class="hero phone-15">
-      <div class="container">
-        <div class="tittle tittle-dark">
-          <h2 class="tittle-heading">Điện Thoại 15</h2>
-          <h3 class="tittle-sub-heading">
-            Camera mới. Thiết kế mới. Mới lịm tim.
-          </h3>
-          <p class="tittle-price">Từ 22.999.000 đồng.</p>
-        </div>
-        <div class="cta">
-          <a href="./index4.html" class="cta-link cta-link-darker"
-            >Tìm hiểu thêm ></a
-          >
-          <a href="./index4.html" class="cta-link cta-link-darker">Mua ></a>
+    <section class="section2">
+      <div
+        class="background"
+        style="background-image: url(./asset/img/banner3.png)"
+      ></div>
+
+      <div class="top__title">
+        <h1 class="black">Laptop Pro</h1>
+        <h3 class="black">Chấn động. Ấn tượng.</h3>
+        <p>Theo dõi để biết khi có hàng.</p>
+        <div class="top__title--links">
+          <a href="" class="dark-blue">Tìm hiểu thêm ></a>
+          <a href="" class="dark-blue">Mua ></a>
         </div>
       </div>
     </section>
 
-    <section class="hero macbook-pro">
-      <div class="container">
-        <div class="tittle tittle-dark">
-          <h2 class="tittle-heading">Laptop Pro</h2>
-          <h3 class="tittle-sub-heading">Chấn động. Ấn tượng.</h3>
-          <p class="tittle-price">Theo dõi để biết khi có hàng.</p>
-        </div>
-        <div class="cta">
-          <a href="./index4.html" class="cta-link cta-link-darker"
-            >Tìm hiểu thêm ></a
-          >
-          <a href="./index4.html" class="cta-link cta-link-darker">Mua ></a>
-        </div>
-      </div>
-    </section>
+    <section class="section4">
+      <div class="row">
+        <div class="section4__item">
+          <div
+            class="background"
+            style="background-image: url(./asset/img/banner4.1.png)"
+          ></div>
 
-    <section class="hero banner3">
-      <div class="container">
-        <div class="tittle tittle-dark">
-          <h2 class="tittle-heading-1">Máy Tính</h2>
-          <h3 class="tittle-sub-heading-1">Đầy sức mạnh.</h3>
-          <p class="tittle-price-1">Theo dõi để biết khi có hàng.</p>
+          <div class="top__title">
+            <h1 class="black">Máy Tính</h1>
+            <h3 class="black">Đầy sức mạnh</h3>
+            <p>Theo dõi để biết khi có hàng.</p>
+            <div class="top__title--links">
+              <a href="" class="dark-blue">Tìm hiểu thêm ></a>
+              <a href="" class="dark-blue">Mua ></a>
+            </div>
+          </div>
         </div>
-        <div class="cta">
-          <a href="./index4.html" class="cta-link cta-link-darker"
-            >Tìm hiểu thêm ></a
-          >
-          <a href="./index4.html" class="cta-link cta-link-darker">Mua ></a>
-        </div>
-      </div>
 
-      <div class="container">
-        <div class="tittle tittle-dark">
-          <h2 class="tittle-heading-1">
-            Điều tuyệt vời <br />
-            đang chờ bạn.
-          </h2>
-          <h3 class="tittle-sub-heading-1">
-            Trao những món quà người ta <br />
-            mong đợi từ lâu.
-          </h3>
-          <!-- <p class="tittle-price-1">Theo dõi để biết khi có hàng.</p> -->
-        </div>
-        <div class="cta">
-          <!-- <a href="./index4.html" class="cta-link cta-link-darker">Tìm hiểu thêm ></a> -->
-          <a href="./index4.html" class="cta-link cta-link-darker">Mua sắm ></a>
-        </div>
-      </div>
-    </section>
+        <div class="section4__item">
+          <div
+            class="background"
+            style="background-image: url(./asset/img/banner4.2.png)"
+          ></div>
 
-    <section class="hero banner4">
-      <div class="container">
-        <div class="tittle">
-          <h2 class="tittle-heading-1">Đồng Hồ Series 9</h2>
-          <h3 class="tittle-sub-heading-1">
-            Thông minh hơn. Sáng hơn. Quyền năng hơn.
-          </h3>
-          <p class="tittle-price-1">Từ 10.499.000 đồng.</p>
-        </div>
-        <div class="cta">
-          <a href="./index4.html" class="cta-link cta-link-darker"
-            >Tìm hiểu thêm ></a
-          >
-          <a href="./index4.html" class="cta-link cta-link-darker">Mua ></a>
+          <div class="top__title">
+            <h1 class="black">
+              Điều tuyệt vời <br />
+              đang chờ bạn.
+            </h1>
+            <h3 class="black">
+              Trao những món quà người ta <br />
+              mong đợi từ lâu.
+            </h3>
+            <div class="top__title--links">
+              <a href="" class="dark-blue">Mua sắm ></a>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="container">
-        <div class="tittle">
-          <h2 class="tittle-heading-1">Tai Nghe Pro</h2>
-          <h3 class="tittle-sub-heading-1">Âm Thanh Thích Ứng. Đang phát.</h3>
-          <p class="tittle-price-1">Từ 6.199.000 đồng.</p>
+      <div class="row">
+        <div class="section4__item">
+          <div
+            class="background"
+            style="background-image: url(./asset/img/banner4.3.png)"
+          ></div>
+
+          <div class="top__title">
+            <h1 class="white">Đồng Hồ Series 9</h1>
+            <h3 class="white">Thông minh hơn. Sáng hơn. Quyền năng hơn.</h3>
+            <div class="top__title--links">
+              <a href="" class="light-blue">Tìm hiểu thêm ></a>
+              <a href="" class="light-blue">Mua ></a>
+            </div>
+          </div>
         </div>
-        <div class="cta">
-          <a href="./index4.html" class="cta-link cta-link-darker"
-            >Tìm hiểu thêm ></a
-          >
-          <a href="./index4.html" class="cta-link cta-link-darker">Mua sắm ></a>
+
+        <div class="section4__item">
+          <div
+            class="background"
+            style="background-image: url(./asset/img/banner4.4.png)"
+          ></div>
+
+          <div class="top__title">
+            <h1 class="white">Tai Nghe Pro</h1>
+            <h3 class="white">Âm Thanh Thích Ứng. Đang phát.</h3>
+            <div class="top__title--links">
+              <a href="" class="light-blue">Tìm hiểu thêm ></a>
+              <a href="" class="light-blue">Mua ></a>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
 
-    <section class="hero banner5">
-      <div class="container">
-        <div class="tittle tittle-dark">
-          <h2 class="tittle-heading-1">Laptop Air</h2>
-          <h3 class="tittle-sub-heading-1">Lớn ấn tượng. Mỏng không tưởng.</h3>
-          <p class="tittle-price-1">Từ 27.999.000 đồng.</p>
-        </div>
-        <div class="cta">
-          <a href="./index4.html" class="cta-link cta-link-darker"
-            >Tìm hiểu thêm ></a
-          >
-          <a href="./index4.html" class="cta-link cta-link-darker">Mua ></a>
-        </div>
-      </div>
+      <div class="row">
+        <div class="section4__item">
+          <div
+            class="background"
+            style="background-image: url(./asset/img/banner4.5.png)"
+          ></div>
 
-      <div class="container">
-        <div class="tittle tittle-dark">
-          <h2 class="tittle-heading-1">Máy Tính Bảng</h2>
-          <h3 class="tittle-sub-heading-1">
-            Thấy là yêu. Vẽ là phiêu. Tuyệt diệu.
-          </h3>
-          <p class="tittle-price-1">Từ 11.499.000 đồng.</p>
+          <div class="top__title">
+            <h1 class="black">Laptop Air</h1>
+            <h3 class="black">Lớn ấn tượng. Mỏng không tưởng.</h3>
+            <div class="top__title--links">
+              <a href="" class="dark-blue">Tìm hiểu thêm ></a>
+              <a href="" class="dark-blue">Mua ></a>
+            </div>
+          </div>
         </div>
-        <div class="cta">
-          <a href="./index4.html" class="cta-link cta-link-darker"
-            >Tìm hiểu thêm ></a
-          >
-          <a href="./index4.html" class="cta-link cta-link-darker">Mua sắm ></a>
+
+        <div class="section4__item">
+          <div
+            class="background"
+            style="background-image: url(./asset/img/banner4.6.png)"
+          ></div>
+
+          <div class="top__title">
+            <h1 class="black">Máy Tính Bảng</h1>
+            <h3 class="black">
+              Thấy là yêu. Vẽ là phiêu. <br />
+              Tuyệt diệu.
+            </h3>
+            <div class="top__title--links">
+              <a href="" class="dark-blue">Tìm hiểu thêm ></a>
+              <a href="" class="dark-blue">Mua ></a>
+            </div>
+            <div class="subTitle"></div>
+          </div>
         </div>
       </div>
     </section>
@@ -256,79 +266,79 @@
             <a href="index.html"><img src="./asset/img/LOGO.png" alt="" /></a>
           </div>
           <div class="media">
-            <a href="./index4.html"><i class="bx bxl-facebook"></i></a>
-            <a href="./index4.html"><i class="bx bxl-google"></i></a>
-            <a href="./index4.html"><i class="bx bxl-linkedin"></i></a>
-            <a href="./index4.html"><i class="bx bxl-telegram"></i></a>
+            <a href="./soon.html"><i class="bx bxl-facebook"></i></a>
+            <a href="./soon.html"><i class="bx bxl-google"></i></a>
+            <a href="./soon.html"><i class="bx bxl-linkedin"></i></a>
+            <a href="./soon.html"><i class="bx bxl-telegram"></i></a>
           </div>
         </div>
         <div class="link-boxes">
           <ul class="box">
             <li class="links_name"><b>Mua Sắm Và Tìm Hiểu</b></li>
-            <li><a href="./index4.html">Cửa Hàng</a></li>
-            <li><a href="./index4.html">Máy Tính</a></li>
-            <li><a href="./index4.html">Máy Tính Bảng</a></li>
-            <li><a href="./index4.html">Điện Thoại</a></li>
-            <li><a href="./index4.html">Đồng Hồ</a></li>
-            <li><a href="./index4.html">Tai Nghe</a></li>
-            <li><a href="./index4.html">TV & Nhà</a></li>
-            <li><a href="./index4.html">Định Vị</a></li>
-            <li><a href="./index4.html">Phụ Kiện</a></li>
+            <li><a href="./soon.html">Cửa Hàng</a></li>
+            <li><a href="./soon.html">Máy Tính</a></li>
+            <li><a href="./soon.html">Máy Tính Bảng</a></li>
+            <li><a href="./soon.html">Điện Thoại</a></li>
+            <li><a href="./soon.html">Đồng Hồ</a></li>
+            <li><a href="./soon.html">Tai Nghe</a></li>
+            <li><a href="./soon.html">TV & Nhà</a></li>
+            <li><a href="./soon.html">Định Vị</a></li>
+            <li><a href="./soon.html">Phụ Kiện</a></li>
             <br />
             <li class="links_name"><b>Ví LAMNP</b></li>
-            <li><a href="./index4.html">Ví</a></li>
-            <li><a href="./index4.html">LAMNP Pay</a></li>
+            <li><a href="./soon.html">Ví</a></li>
+            <li><a href="./soon.html">LAMNP Pay</a></li>
           </ul>
           <ul class="box">
             <li class="links_name"><b>Tài Khoản</b></li>
-            <li><a href="./index4.html">Quản Lý LamID Của Bạn</a></li>
-            <li><a href="./index4.html">Tài Khoản LamStore</a></li>
+            <li><a href="./soon.html">Quản Lý LamID Của Bạn</a></li>
+            <li><a href="./soon.html">Tài Khoản LamStore</a></li>
             <br />
             <li class="links_name"><b>Giải Trí</b></li>
-            <li><a href="./index4.html">Lam One</a></li>
-            <li><a href="./index4.html">Lam TV+</a></li>
-            <li><a href="./index4.html">Lam Music</a></li>
-            <li><a href="./index4.html">Lam Arcade</a></li>
-            <li><a href="./index4.html">Lam Podcasts</a></li>
-            <li><a href="./index4.html">Lam Books</a></li>
+            <li><a href="./soon.html">Lam One</a></li>
+            <li><a href="./soon.html">Lam TV+</a></li>
+            <li><a href="./soon.html">Lam Music</a></li>
+            <li><a href="./soon.html">Lam Arcade</a></li>
+            <li><a href="./soon.html">Lam Podcasts</a></li>
+            <li><a href="./soon.html">Lam Books</a></li>
           </ul>
           <ul class="box">
             <li class="links_name"><b>LamNP Store</b></li>
-            <li><a href="./index4.html">Ứng Dụng LamNP Store</a></li>
-            <li><a href="./index4.html">LamNP Trade In</a></li>
-            <li><a href="./index4.html">Tài Chính</a></li>
-            <li><a href="./index4.html">Tình Trạng Đơn Hàng</a></li>
-            <li><a href="./index4.html">Hỗ Trợ Mua Hàng</a></li>
+            <li><a href="./soon.html">Ứng Dụng LamNP Store</a></li>
+            <li><a href="./soon.html">LamNP Trade In</a></li>
+            <li><a href="./soon.html">Tài Chính</a></li>
+            <li><a href="./soon.html">Tình Trạng Đơn Hàng</a></li>
+            <li><a href="./soon.html">Hỗ Trợ Mua Hàng</a></li>
           </ul>
           <ul class="box">
             <li class="links_name"><b>Dành Cho Doanh Nghiệp</b></li>
-            <li><a href="./index4.html">LamNP Và Doanh Nghiệp</a></li>
-            <li><a href="./index4.html">Mua Hàng Cho Doanh Nghiệp</a></li>
+            <li><a href="./soon.html">LamNP Và Doanh Nghiệp</a></li>
+            <li><a href="./soon.html">Mua Hàng Cho Doanh Nghiệp</a></li>
             <br />
             <li class="links_name"><b>Cho Giáo Dục</b></li>
-            <li><a href="./index4.html">LamNP Và Giáo Dục</a></li>
-            <li><a href="./index4.html">Mua Hàng Cho Bậc Đại Học</a></li>
+            <li><a href="./soon.html">LamNP Và Giáo Dục</a></li>
+            <li><a href="./soon.html">Mua Hàng Cho Bậc Đại Học</a></li>
             <br />
             <li class="links_name"><b>Cho Chăm Sóc Sức Khoẻ</b></li>
             <li>
-              <a href="./index4.html">LamNP Trong Chăm Sóc <br />Sức Khoẻ</a>
+              <a href="./soon.html">LamNP Trong Chăm Sóc <br />Sức Khoẻ</a>
             </li>
-            <li><a href="./index4.html">Sức Khoẻ Trên Đồng Hồ</a></li>
+            <li><a href="./soon.html">Sức Khoẻ Trên Đồng Hồ</a></li>
           </ul>
           <ul class="box">
             <li class="links_name"><b>Giá Trị Cốt Lõi Của LamNP</b></li>
-            <li><a href="./index4.html">Trợ Năng</a></li>
-            <li><a href="./index4.html">Môi Trường</a></li>
-            <li><a href="./index4.html">Quyền Riêng Tư</a></li>
-            <li><a href="./index4.html">Trách Nhiệm Nhà Cung Cấp</a></li>
+            <li><a href="./soon.html">Trợ Năng</a></li>
+            <li><a href="./soon.html">Môi Trường</a></li>
+            <li><a href="./soon.html">Quyền Riêng Tư</a></li>
+            <li><a href="./soon.html">Trách Nhiệm Nhà Cung Cấp</a></li>
             <br />
             <li class="links_name"><b>Về LamNP</b></li>
-            <li><a href="./index4.html">Newsroom</a></li>
-            <li><a href="./index4.html">Lãnh Đạo Của LamNP</a></li>
-            <li><a href="./index4.html">Nhà Đầu Tư</a></li>
-            <li><a href="./index4.html">Đạo Đức & Quy Tắc</a></li>
-            <li><a href="./index4.html">Sự Kiện</a></li>
-            <li><a href="./index4.html">Liên Hệ LamNP</a></li>
+            <li><a href="./soon.html">Newsroom</a></li>
+            <li><a href="./soon.html">Lãnh Đạo Của LamNP</a></li>
+            <li><a href="./soon.html">Nhà Đầu Tư</a></li>
+            <li><a href="./soon.html">Đạo Đức & Quy Tắc</a></li>
+            <li><a href="./soon.html">Sự Kiện</a></li>
+            <li><a href="./soon.html">Liên Hệ LamNP</a></li>
             <br />
           </ul>
         </div>
@@ -337,7 +347,7 @@
         <div class="middle-Text">
           <p class="shopping">
             Xem thêm cách để mua hàng:
-            <a href="./index4.html"> Tìm cửa hàng bán lẻ</a> gần bạn. Hoặc gọi
+            <a href="./soon.html"> Tìm cửa hàng bán lẻ</a> gần bạn. Hoặc gọi
             1800 6789.
           </p>
           <hr />
@@ -346,11 +356,11 @@
             <p>Việt Nam</p>
           </div>
           <div class="policy">
-            <a href="./index4.html">Chính Sách Quyền Riêng Tư |</a>
-            <a href="./index4.html">Điều Khoản Sử Dụng |</a>
-            <a href="./index4.html">Bán Hàng Và Hoàn Tiền |</a>
-            <a href="./index4.html">Pháp Lý |</a>
-            <a href="./index4.html">Bản Đồ Trang Web</a>
+            <a href="./soon.html">Chính Sách Quyền Riêng Tư |</a>
+            <a href="./soon.html">Điều Khoản Sử Dụng |</a>
+            <a href="./soon.html">Bán Hàng Và Hoàn Tiền |</a>
+            <a href="./soon.html">Pháp Lý |</a>
+            <a href="./soon.html">Bản Đồ Trang Web</a>
           </div>
           <div class="property">
             <div class="text-container">
@@ -364,15 +374,11 @@
               </p>
               <p>Điện thoại: 1800 6789.</p>
             </div>
-            <!-- <div class="image-container">
-              <a href="http://online.gov.vn/"
-                ><img src="./img/bct.png" alt=""
-              /></a>
-            </div> -->
           </div>
         </div>
       </div>
     </footer>
+
     <div class="loader-wrapper">
       <!-- Google Chrome -->
       <div class="infinityChrome">
@@ -419,7 +425,7 @@
         class="dribbble"
         href="https://dribbble.com/shots/5557955-Infinity-Loader"
         target="_blank"
-        ></a>
+      ></a>
     </div>
   </body>
   <script src="./asset/js/main.js"></script>
