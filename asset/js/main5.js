@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var overlay = document.querySelector('.overlay');
     var popupContent = document.querySelector('.popup-content');
     var continueButton = document.querySelector('.click-me');
-    var closeButtons = document.querySelectorAll('.fa-times, .close-btn'); // Chọn cả hai class
+    var closeButtons = document.querySelectorAll('.fa-times, .close-btn');
   
     continueButton.addEventListener('click', function() {
       showPopup();
