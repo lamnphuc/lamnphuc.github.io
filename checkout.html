@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./asset/css/checkout.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">THÔNG TIN THANH TOÁN</h3>
+
+            <div class="inputBox">
+              <span>Họ và tên:</span>
+              <input type="text" placeholder="Nguyen Phuc Lam" />
+            </div>
+            <div class="inputBox">
+              <span>email :</span>
+              <input type="email" placeholder="example@example.com" />
+            </div>
+            <div class="inputBox">
+              <span>Địa chỉ</span>
+              <input type="text" placeholder="room - street - locality" />
+            </div>
+            <div class="inputBox">
+              <span>Thành Phố :</span>
+              <input type="text" placeholder="Hà Nội" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>Quốc Gia :</span>
+                <input type="text" placeholder="Việt Nam" />
+              </div>
+              <div class="inputBox">
+                <span>Mã Zip:</span>
+                <input type="text" placeholder="123 456" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3 class="title">payment</h3>
+
+            <div class="inputBox">
+              <span>Thẻ được chấp nhận</span>
+              <img src="./asset/img/card_img.png" alt="" />
+            </div>
+            <div class="inputBox">
+              <span>Tên thẻ:</span>
+              <input type="text" placeholder="NGUYEN PHUC LAM" />
+            </div>
+            <div class="inputBox">
+              <span>Số thẻ:</span>
+              <input type="number" placeholder="1111-2222-3333-4444" />
+            </div>
+            <div class="inputBox">
+              <span>EXP month:</span>
+              <input type="text" placeholder="january" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>EXP Year:</span>
+                <input type="number" placeholder="2025" />
+              </div>
+              <div class="inputBox">
+                <span>CVV :</span>
+                <input type="text" placeholder="1234" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <input type="submit" value="Thanh Toán" class="submit-btn"  /><a href="./success.html"></a> -->
+        <button type="submit" class="submit-btn"><a href="./success.html">Thanh Toán</a></button>
+      </form>
+    </div>
+  </body>
+</html>
